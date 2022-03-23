@@ -1,0 +1,298 @@
+/***** Tag Selectors *****/
+body {
+  background-color: #809f80;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Press Start 2P', cursive;
+  color: #b9120f;
+}
+
+a {
+  text-decoration: underline;
+  color: black;
+  font-family: 'Press Start 2P', cursive;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #27d827;
+  font-family: 'Press Start 2P', cursive;
+}
+
+ul {
+  padding-left: 43%;
+  width: fit-content;
+  text-align: left;
+}
+
+li {
+  font-family: monospace;
+}
+
+tr, td {
+  display: inline-block;
+}
+
+table {
+  width: 100%;
+}
+
+label {
+  color: white;
+}
+/***** Class Selectors *****/
+/* Heading Elements */
+.accordiancont {
+  width: fit-content;
+  float: left;
+}
+
+.titlecontainer {
+  height: 10%;
+  background-color:  #809f80;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.maintitle {
+  width: fit-content;
+  margin: auto;
+}
+
+.maincanvas {
+  background-color: #dcdcdc;
+  border: solid black;
+  background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fpurepng.com%2Fpublic%2Fuploads%2Flarge%2Fpurepng.com-skullsskullhuman-skullskeleton-skullbrain-holdercliparthead-14215269710839tiw8.png&f=1&nofb=1);
+  background-position: center;
+  background-repeat: repeat-x;
+  background-blend-mode: soft-light;
+  background-size: contain;
+}
+
+.undertitle {
+  color: black;
+  margin-top: 50px;
+  text-decoration: underline;
+}
+
+/* Product Container Elements */
+.prodimg {
+  width: 400px;
+  height: 700px;
+  margin-top: 3rem;
+  border-style: dotted;
+}
+
+.pricing {
+  font-family: 'Press Start 2P', cursive;
+  margin-left: 5px;
+  text-align: center;
+}
+
+.prodcont4 {
+  text-align: center;
+  width: 20rem;
+  font-family: 'Press Start 2P', cursive;
+  color: red;
+}
+
+.prodcont3 {
+  text-align: center;
+  width: 20rem;
+  font-family: 'Press Start 2P', cursive;
+  color: red;
+}
+
+.prodcont2 {
+  text-align: center;
+  width: 25rem;
+}
+
+.prodcont {
+  text-align: center;
+  width: 25rem;
+}
+
+/* Footer Elements */
+.instaicon {
+  height: 50px;
+}
+.instacont {
+  width: fit-content;
+  margin-left: 267.2px;
+}
+.footercont {
+  background-color: black;
+  width: fit-content;
+  margin: 40px auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.foot1 {
+  font-family: 'Press Start 2P', cursive;
+  text-align: center;
+  color: red;
+}
+
+.foot2 {
+  font-family: 'Press Start 2P', cursive;
+  text-align: center;
+  color: red;
+}
+
+.contactcont {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.startpgcont {
+  text-align: center;
+}
+/* Intro */
+.strtcont {
+  background-color: black;
+  width: 45%;
+  margin: 25% auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  animation: fadeIn linear 1s;
+  -webkit-animation: fadeIn linear 1s;
+  -moz-animation: fadeIn linear 1s;
+  -o-animation: fadeIn linear 1s;
+  -ms-animation: fadeIn linear 1s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+
+/***** ID Selectors *****/
+#SomeWeartitle {
+  background-color: black;
+}
+
+#subtitle2 {
+  width: 40%;
+  margin-left: 30%;
+}
+
+#title {
+  font-size: xxx-large;
+  font-weight: 900;
+  font-style: oblique;
+}
+
+#titlelink {
+  text-decoration: none;
+}
+
+/* Intro */
+#start {
+  color: white;
+}
+
+#startbtn:hover {
+  animation: none;
+  text-decoration: underline;
+}
+
+#startbtn {
+  color: red;
+  animation: blink-animation 4s steps(5, start) infinite;
+  -webkit-animation: blink-animation 2s steps(5, start) infinite;
+}
+
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+
+@-webkit-keyframes blink-animation
+  to {
+    visibility: hidden;
+  }
+/***** Carousel Styling *****/
+.carousel-inner {
+  height: 600px;
+}
+
+#imgda21 {
+  height: 600px;
+}
+
+#imgda22 {
+  height: 600px;
+}
+
+#imgda24 {
+  height: 600px;
+}
+/***** Preview Page *****/
+.imgpreviewcont {
+  margin: auto;
+  border: solid;
+}
+
+.sizeselectbox {
+  background-color: black;
+  width: fit-content;
+
+}
+
+/***** Contact Form *****/
+.contactform {
+  width: 50%;
+  margin: auto;
+}
